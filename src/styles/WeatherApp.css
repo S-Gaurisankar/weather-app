@@ -1,0 +1,116 @@
+.weather-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .weather-header {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+  }
+  
+  .preferences-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .search-bar input:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  .weather-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-table th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .weather-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .weather-table tr:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+  }
+  
+  .toggle-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .refresh-rate {
+    margin: 1rem 0;
+  }
+  
+  .refresh-rate input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 120px;
+  }
+  
+  /* Dark mode styles */
+  .dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .dark-mode .weather-table th {
+    background-color: #2c3e50;
+  }
+  
+  .dark-mode .weather-table td {
+    border-bottom-color: #333;
+  }
+  
+  .dark-mode .preferences-section {
+    background-color: rgba(0, 0, 0, 0.2);
+  }

@@ -2,7 +2,7 @@ import { usePreferences } from "../contexts/prefContext";
 import { useState, useEffect, useRef, useMemo } from "react";
 import SearchBar from "../components/SearchBar";
 import DarkModeToggle from "../components/DarkModeToggle";
-import Preferences from "./preferences";
+import Preferences from "./Preferences";
 import Table from "../components/Table";
 import '../styles/WeatherApp.css';
 
